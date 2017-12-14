@@ -5,7 +5,7 @@ LOG_PATH = os.path.abspath(os.path.join(os.path.dirname(inspect.getfile(inspect.
 logging.basicConfig(filename=os.path.join(LOG_PATH, 'Anime Scanner.log'), level=logging.DEBUG)
 
 regexSeason = '(?P<show>.*?)[\._\- ]+[sS](?P<season>[0-9]{2})'             # S08
-regexEpisode = '(?P<show>.*?)[\._\- ]+(?P<episode>[0-9]+)[\._\- ]+'        # 160
+regexEpisode = '(?P<show>.*?)[\._\- EP]+(?P<episode>[0-9]+)[\._\- ]+'      # 160 or EP160
 
 def Scan(path, files, mediaList, subdirs):
 
