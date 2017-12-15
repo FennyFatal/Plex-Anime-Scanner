@@ -61,3 +61,7 @@ The name of the episodes, description, ratting etc will be taken from AniDB usin
 - Save into ``[...]/Plex/Library/Application Support/Plex Media Server/Scanners/Series/Anime Scanner.py`` Note: "Scanners" and "Series" folder are not created by default and will need creating.
 - Once the scanner is installed correctly, when creating a library you can select the custom scanner, otherwise the drop-down selection list is not shown.
 - Install [Hama.bundle](https://github.com/StancuFlorin/Hama.bundle) plugin.
+
+# The Result
+
+[https://imgur.com/a/WgaNW](https://imgur.com/a/WgaNW)
