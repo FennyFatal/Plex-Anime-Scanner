@@ -5,7 +5,7 @@ LOG_PATH = os.path.abspath(os.path.join(os.path.dirname(inspect.getfile(inspect.
 logging.basicConfig(filename=os.path.join(LOG_PATH, 'Anime Scanner.log'), level=logging.DEBUG)
 
 regexSeason = '(?P<show>.*?)[S](?P<season>[0-9]{2})'  # S08
-regexEpisode = '(?P<show>.*?)(E|EP|Episodul|Special|OVA)?[\._\- ]*(?P<episode>(?<!v)[0-9]+)[\._\- ]+'  # 160 or EP160 or Special.02
+regexEpisode = '(?P<show>.*?)(E|EP|Episodul|Special|OVA)?[\._\- ]*(?P<episode>(?<!v)[0-9]+)[v\._\- ]+'  # 160 or EP160 or Special.02
 regexMovie = '(?P<show>.*?)(Movie|M)[\._\- ]*(?P<movie>[0-9]+)[\._\- ]+'  # Movie.03 or Movie03 or M.03 or M03
 
 
